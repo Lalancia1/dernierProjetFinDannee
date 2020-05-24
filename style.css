@@ -1,0 +1,590 @@
+.container{
+    width: auto;
+    margin: auto;
+    height: auto;
+    align-content: center;
+}
+
+.col-xs-12{
+    width: auto;
+    height: auto;
+}
+.col-xs-6{
+margin: inherit;
+}
+.col-lg-2{
+border:1px solid ;
+ height: 30px;
+    text-align: center;
+
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+.image:hover{
+    width: 150px;
+    height: 150px;
+}
+
+
+.bouton{
+    width: 60px;
+}
+#logo{
+    left: 1px;
+    box-shadow:5px 5px 2px 2px gray;
+}
+#logo:hover{
+    width:85px ;
+    height: 90px;
+}
+#dechet1{
+
+    margin-left: 80px;
+    top: 37px;
+    color: white;
+}
+#dechet1:hover{
+
+    color: blue;
+    letter-spacing: 2px;
+}
+.I1{
+    width: 200px;
+    height: 200px;
+}
+
+#toto{
+    color:yellowgreen;
+    animation: lAnimation 3s ease-in-out ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lAnimation{
+    0% {
+
+        color: black;
+        letter-spacing: 1px;
+    }
+    30% {
+
+        color: yellow;
+        letter-spacing: 2px;
+    }
+    70%{
+
+        color: maroon;
+        letter-spacing: 3px;
+    }
+    100%{
+        color:black;
+        letter-spacing: 0;
+    }
+}
+body{
+    background-color: aqua;
+    width: auto;
+    height: auto;
+}
+.col-sm-3{
+    border:4px  gold solid;
+    border-radius: 10px;
+    text-align: center;
+}
+#dechet2{
+  visibility: visible;
+}
+#dechet2:hover{
+    visibility: hidden;
+}
+#dechet6{
+    margin-left: auto;
+}
+#dechet6:hover{
+    transform: translate(-60px);
+}
+#dechet10{
+    visibility: visible;
+}
+#dechet10:hover{
+    transform: translate(60px);
+}
+#dechet3{
+visibility: visible;
+}
+#dechet3:hover{
+    visibility: hidden;
+}
+#dechet7{
+margin-left: auto;
+    visibility: visible;
+}
+#dechet7:hover{
+    transform: translate(-60px);
+    visibility: visible;
+}
+#dechet11{
+    margin-left: auto;
+    visibility: visible;
+}
+#dechet11:hover{
+    transform: translate(60px);
+    visibility: visible;
+}
+#dechet4{
+visibility: visible;
+}
+#dechet4:hover{
+    visibility: hidden;
+}
+#dechet8{
+    margin-left: auto;
+    visibility: visible;
+}
+#dechet8:hover{
+    transform: translate(-60px);
+    visibility: visible;
+}
+
+#dechet12{
+    margin-left: auto;
+    visibility: visible;
+}
+#dechet12:hover{
+    transform: translate(60px);
+    visibility: visible;
+}
+#dechet5{
+visibility: visible;
+}
+#dechet5:hover{
+    visibility: hidden;
+}
+#dechet9{
+    visibility: visible;
+    margin-left: auto;
+}
+#dechet9:hover{
+    transform: translate(-60px);
+    visibility: visible;
+}
+#dechet13{
+    visibility: visible;
+    margin-left: auto;
+}
+#dechet13:hover{
+    transform: translate(60px);
+    visibility: visible;
+}
+
+/*****************************************************************/
+.col-lg-3{
+    width: 25%;
+    height: 780px;
+}
+
+#depenses{
+    border:4px green solid;
+
+}
+
+#recettes{
+    border:4px darkmagenta solid;
+}
+#epargnes{
+    border:4px gray solid;
+}
+#resultat{
+    border:4px tomato solid;
+}
+#affichResult1{
+    font-family:Arial;
+    font-size: 15px;
+    width: 98%;
+    height: 220px;
+    color: blue;
+    border: 1px solid orange;
+}
+#affichResult2{
+    font-family:Arial;
+    font-size: 15px;
+    width: 98%;
+    height: 220px;
+    color: orange;
+    border: 1px solid orange;
+}
+#affichResult3{
+    font-family:Arial;
+    font-size: 15px;
+    width: 98%;
+    height: 220px;
+    color: red;
+    border: 1px solid orange;
+}
+
+#InputEauElect{
+    width:25%;
+    background-color: white ;
+}
+#InputLoyer{
+    width:25%;
+    background-color: white ;
+
+}
+#InputGazCourant{
+    width:25%;
+    background-color: white;
+}
+#InputAssurance{
+    width:25%;
+    background-color: white;
+}
+#InputMutuelle{
+    width:25%;
+    background-color: white;
+}
+#InputIMPOT{
+    width:25%;
+    background-color: white;
+}
+#InputTelephInternet{
+    width:25%;
+    background-color: white;
+}
+#InputTaxe{
+    width:25%;
+    background-color: white;
+}
+#InputCredit{
+    width:25%;
+    background-color: white;
+}
+#InputCourse{
+    width:25%;
+    background-color: white;
+}
+#InputEssence{
+    width:25%;
+    background-color: white;
+}
+#InputTransport{
+    width:25%;
+    background-color: white;
+}
+#InputSportive{
+    width:25%;
+    background-color: white;
+}
+#InputVacances{
+    width:25%;
+    background-color: white;
+}
+
+.col-xs-3{
+  /*  padding-left: 180px;*/
+}
+button{
+    background-color:orange ;
+}
+
+
+#recettesSpan{
+    box-shadow:0 0 5px 8px lightsalmon ;
+    width: 30%;
+
+}
+
+
+#totalRevenus{
+    width: 100px;
+    height: 30px;
+    border: 2px black solid;
+
+
+}
+#depensesSpan{
+    padding: 2px;
+    height: 45px;
+    box-shadow:0 0 5px 8px lightsalmon ;
+}
+#totalDepenses{
+
+    width: 50%;
+    height: 30px;
+    border: 2px black solid;
+
+}
+#affiche1{
+    font-family:Arial;
+    font-size: 15px;
+    width: 98%;
+    height: 150px;
+    color: blue;
+    border: 1px solid orange;
+}
+#affiche2{
+    font-family:Arial;
+    font-size: 15px;
+    width: 98%;
+    height: 150px;
+    color: blue;
+    border: 1px solid orange;
+}
+#affiche3{
+    font-family:Arial;
+    font-size: 15px;
+    width: 98%;
+    height: 150px;
+    color: orange;
+    border: 1px solid orange;
+}
+#affiche4{
+    font-family:Arial;
+    font-size: 15px;
+    width: 98%;
+    height: 150px;
+    color: red;
+    border: 1px solid orange;
+}
+
+#epargnesSpan{
+
+    box-shadow:0 0 5px 8px lightsalmon ;
+
+}
+#totalEpargne{
+
+    width: 50%;
+    height: 30px;
+    border: 2px black solid;
+
+}
+
+#resultatSpan{
+
+    box-shadow:0 0 5px 8px lightsalmon ;
+    bottom: 5px;
+    right: 5px;
+}
+#InputComplement1{
+    width:30%;
+    background-color: lightgray;
+}
+#InputComplement2{
+    width:30%;
+    background-color: lightgray;
+}
+#InputComplement3{
+    width:30%;
+    background-color: lightgray;
+}
+#InputComplement4{
+    width:30%;
+    background-color:lightgray ;
+}
+#InputComplement5{
+    width:30%;
+    background-color: lightgray;
+}
+#InputComplement6{
+    width:30%;
+    background-color: lightgray;
+}
+#InputComplement7{
+    width:30%;
+    background-color:lightgray ;
+}
+#InputComplement8{
+    width:30%;
+    background-color: lightgray;
+}
+#textil{
+    width: 200px;
+    height: 80px;
+
+}
+#comp{
+    width: 200px;
+    height: 60px;
+
+}
+#auto{
+    width: 200px;
+    height: 120px;
+  /*  background-color: white;*/
+}
+/************************************************deuxieme page************************************************************/
+/***********************************************************************************************************************/
+#vide{
+    height: 150px;
+    width: 100%;
+}
+#texte2{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    size: 20px;
+}
+#deuxiemePage{
+    width: 100%;
+    height: 700px;
+    margin-top: 40px;
+}
+#semaineCourse{
+    width: 25%;
+    height: 550px;
+    border: 4px lightsalmon solid;
+}
+#semaineEssences{
+    width: 25%;
+    height: 550px;
+    border:4px orange solid;
+}
+#semaineTransport{
+    width: 25%;
+    height: 550px;
+    border: 4px orangered solid;
+}
+#semaineSortie{
+    width: 25%;
+    height: 550px;
+    border:4px darkseagreen solid;
+}
+#weekTotalCourse{
+    width: 100%;
+
+    bottom: 10px;
+}
+#CalculCourse{
+
+    border: 4px green solid;
+    bottom: 10px;
+    width: 40%;
+    height: 30px;
+    right: 10px;
+}
+
+#weekTotalEssence{
+    width: 100%;
+    bottom: 10px;
+}
+#CalculEsssence{
+
+    bottom: 10px;
+    width: 40%;
+    border: 4px green solid;
+    height: 30px;
+    right: 10px;
+}
+#weekTotalTransport{
+    width: 100%;
+
+    bottom: 10px;
+    height: 25px;
+
+}
+#CalculTransport{
+
+
+    bottom: 10px;
+    width: 40%;
+    border: 4px green solid;
+    height: 30px;
+    right: 10px;
+}
+#weekTotalSortie{
+    width: 100%;
+    bottom: 10px;
+    height: 25px;
+
+}
+#CalculSortie{
+
+    bottom: 10px;
+    width: 40%;
+
+    border: 4px green solid;
+    height: 30px;
+    right: 10px;
+}
+#ligneBouton{
+    width: 100%;
+    height: 45px;
+    bottom: 10px;
+}
+#click1{
+    width: 5%;
+}
+#click2{
+    width: 5%;
+}
+#click3{
+    width: 5%;
+}
+#click4 {
+    width: 5%;
+}
+
+
+/*************************************************************************************************************/
+/************************************************************SLIDE******************************/
+#buttonSpace {
+    width: 200px;
+    height: 100px;
+
+}
+.carre{
+    width: 230px;
+    height: 550px;
+    position: absolute;
+
+
+}
+
+#one {
+    background-color: aquamarine;
+    z-index: 5;
+
+
+}
+#two {
+    background-color: blue;
+    z-index: 4;
+    color: white;
+}
+#tree {
+    background-color: yellow;
+    z-index: 3;
+    color: white;
+}
+#four {
+    background-color: green;
+    z-index: 2;
+    color: white;
+}
+#five {
+    background-color: rebeccapurple;
+    z-index: 1;
+    color: white;
+}
+
+@keyframes monAnimation{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0;
+        background-image:url("images/blackWoman.png") ;
+    }
+}
+/* ***********************************************BIENVENU**********************************************/
+#bienvenu{
+    color:white;
+}
